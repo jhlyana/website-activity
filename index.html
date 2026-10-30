@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#edf3ee">
+  <meta name="description" content="Learn JavaScript at your own pace in BloomScript's peaceful garden of interactive lessons, code experiments, and quizzes.">
+  <title>BloomScript — Learn JavaScript in Full Bloom</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/lessons.js" defer></script><script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header">
+    <button id="menu-toggle" class="icon-button" aria-expanded="false" aria-controls="sidebar">☰ <span>Lessons</span></button>
+    <a class="utility-title" href="#home">My learning garden <span aria-hidden="true">🌿</span></a>
+    <div class="utility-search">
+      <label class="sr-only" for="search">Find a lesson</label>
+      <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search for a little inspiration…" autocomplete="off" aria-controls="search-results"></div>
+      <div id="search-results" aria-live="polite"></div>
+    </div>
+    <a class="progress-shortcut" href="#journey"><span aria-hidden="true">◔</span><span>My progress <small id="utility-progress">0 / 17</small></span></a>
+  </header>
+  <div class="app-shell">
+    <aside id="sidebar" aria-label="Lesson navigation">
+      <div class="sidebar-top"><div><a class="brand" href="#home" aria-label="BloomScript home"><span class="brand-flower">✿</span> BloomScript<span class="brand-dot">.</span></a><p class="brand-subtitle">the cozy code classroom</p></div><button id="menu-close" class="icon-button" aria-label="Close lessons">×</button></div>
+      <a class="garden-home" href="#home"><span>⌂</span> Learning garden <span aria-hidden="true">↗</span></a>
+      <div class="course-label"><span class="eyebrow">YOUR LITTLE LEARNING PATH</span><div>JavaScript Basics <span>PPT 01</span></div></div>
+      <div id="lesson-nav"></div>
+      <nav class="sidebar-tools" aria-label="Learning tools"><a href="#playground">⌘ <span>Coding playground</span> ↗</a><a href="#quizzes">✧ <span>Knowledge checks</span> ↗</a></nav>
+      <div class="sidebar-progress"><span class="eyebrow">A LITTLE EVERY DAY 🌿</span><p id="progress-label"></p><progress id="overall-progress" max="17" value="0"></progress><p class="small">Every lesson is a seed of possibility.</p></div>
+    </aside>
+    <main id="main" tabindex="-1"></main>
+  </div>
+  <footer><a class="brand" href="#home">✿ BloomScript.</a><span>Learn gently, grow steadily. 🌸</span><span>Activity 1 · Your cozy code classroom 🩵</span></footer>
+  <div id="announcement" class="sr-only" role="status"></div>
+</body>
+</html>

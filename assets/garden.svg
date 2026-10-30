@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="740" viewBox="0 0 900 740">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#cbdde7"/><stop offset="1" stop-color="#f8eed8"/></linearGradient>
+ <linearGradient id="pond" x2="0" y2="1"><stop stop-color="#a6c9c5"/><stop offset="1" stop-color="#a6bdd5"/></linearGradient>
+ <filter id="paint"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="3" seed="8" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="13"/><feGaussianBlur stdDeviation="1.2"/></filter>
+ <pattern id="flowers" width="100" height="90" patternUnits="userSpaceOnUse"><path d="M22 90l9-48m37 30l-6-45" stroke="#73937a" stroke-width="4"/><ellipse cx="30" cy="41" rx="12" ry="7" fill="#e1aec3"/><ellipse cx="63" cy="27" rx="9" ry="12" fill="#b1a5cd"/><path d="M1 72l17-5m24 8l19-5m15 10l18-4" stroke="#f1dfaa" stroke-width="7"/></pattern>
+</defs>
+<g filter="url(#paint)">
+<path fill="url(#sky)" d="M0 0h900v740H0z"/>
+<ellipse cx="650" cy="137" rx="62" ry="58" fill="#f8e5ae" opacity=".75"/>
+<path d="M-30 291Q130 145 294 249T590 229T950 222V550H0" fill="#aabca2"/>
+<path d="M0 330Q145 200 260 329T550 309T900 283V570H0" fill="#88a68e"/>
+<path d="M30 0Q115 80 85 263M109 17Q158 80 158 251M804 0Q734 123 783 294" stroke="#7e947a" stroke-width="24" fill="none"/>
+<path d="M0 30Q126-55 234 48L174 120 88 139 0 187M900 0H737L686 77 741 146 900 202" fill="#8fa787"/>
+<path d="M0 56L116 25 194 68M728 39l138 33M754 115l145 27" stroke="#bac6a0" stroke-width="31"/>
+<path d="M254 339Q457 265 692 366L815 740H85Z" fill="url(#pond)"/>
+<path d="M0 354Q145 282 296 349L190 455 94 605 141 740H0M900 331Q738 285 655 360L771 465 720 599 653 740H900" fill="#8fa484"/>
+<path d="M0 371Q145 304 278 360L164 531 123 740H0M900 352Q760 304 673 367L787 501 704 740H900" fill="url(#flowers)"/>
+<path d="M210 414Q438 301 732 407M219 434Q447 322 740 429" fill="none" stroke="#e1d8bb" stroke-width="14"/>
+<path d="M224 431v-45m69 17v-44m71 20v-46m76 39v-47m78 51v-46m75 62v-44m73 65v-44m66 69v-43" stroke="#d5cbb0" stroke-width="9"/>
+<g stroke-linecap="round" fill="none"><path d="M300 475h87m71-30h95m36 52h95M208 590h130m92-52h91m45 95h129M280 677h137m56 29h102" stroke="#d4e0d6" stroke-width="8"/><path d="M316 511h49m132 66h70m-216 38h74m125 55h49" stroke="#b0aed0" stroke-width="9"/></g>
+<g fill="#739985"><ellipse cx="341" cy="553" rx="30" ry="9"/><ellipse cx="586" cy="530" rx="23" ry="8"/><ellipse cx="477" cy="649" rx="34" ry="10"/></g>
+<g fill="#edc0d0"><ellipse cx="343" cy="545" rx="10" ry="6"/><ellipse cx="588" cy="522" rx="8" ry="6"/><ellipse cx="481" cy="640" rx="12" ry="7"/></g>
+</g></svg>

@@ -1,0 +1,48 @@
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.*
+.aws/
+.ssh/
+
+# Editor and assistant workspace state
+.vscode/
+.idea/
+.codex/
+.agents/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files, caches, and generated development artifacts
+node_modules/
+.cache/
+.tmp/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+coverage/
+.nyc_output/
+dist/
+build/
+playwright-report/
+test-results/
+tests/.painting-*
+.browser-profile/
+
+# Keep source tests and the intentional desktop/mobile screenshots.
